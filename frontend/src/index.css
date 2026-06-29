@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #000000;
+  --color-navy: #233d4d;
+  --color-accent: #fe7f2d;
+  --color-surface: #eaecf0;
+
+  --font-sans: "Avenir", "Avenir Next", "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+}
